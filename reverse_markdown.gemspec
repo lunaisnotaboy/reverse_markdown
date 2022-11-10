@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_dependency 'nokogiri'
+  s.add_dependency 'nokogiri', '1.5.6'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'rake'
